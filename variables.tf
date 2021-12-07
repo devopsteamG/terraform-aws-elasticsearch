@@ -9,7 +9,7 @@ variable "domain_name" {
 variable "elasticsearch_version" {
   description = "The version of Elasticsearch to deploy."
   type        = string
-  default     = "7.1"
+  default     = "OpenSearch_1.0"
 }
 
 variable "access_policies" {
