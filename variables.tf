@@ -345,3 +345,7 @@ variable "create_service_link_role" {
   type        = bool
   default     = true
 }
+
+variable "name" {}
+#variable "region" {}
+variable "cognito_domain" {}
